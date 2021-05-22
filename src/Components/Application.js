@@ -187,7 +187,7 @@ function Application(props) {
     <div>
       <Toolbar className={classes.sideToolBar}>
         <Typography variant="h6" className={classes.sideToolBarText}>
-          CHATIFY
+          ChatApp
         </Typography>
       </Toolbar>
       <Divider />

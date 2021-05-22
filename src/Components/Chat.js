@@ -79,7 +79,7 @@ function Chat() {
       db.collection("channels")
         .doc(params.id)
         .onSnapshot((snapshot) => {
-          setChannelName(snapshot.data().channelName);
+          setChannelName(snapshot.data()?.channelName);
         });
 
       db.collection("channels")
